@@ -1,0 +1,32 @@
+{
+  "name": "pigeon-letter-server",
+  "version": "1.0.0",
+  "description": "This is a chat application.",
+  "main": "server.js",
+  "scripts": {
+    "test-server": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlayKharadi/Pigeon-Letter.git"
+  },
+  "keywords": [
+    "ChatApp"
+  ],
+  "author": "AlayKharadi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlayKharadi/Pigeon-Letter/issues"
+  },
+  "homepage": "https://github.com/AlayKharadi/Pigeon-Letter#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "pg": "^8.7.1",
+    "ws": "^8.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

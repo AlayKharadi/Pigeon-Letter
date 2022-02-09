@@ -1,0 +1,77 @@
+.App {
+  display: grid;
+  grid-template-rows: 3.75rem auto 2.25rem;
+  row-gap: 0rem;
+  height: 100vh;
+  background-color: #282c34;
+}
+
+.App .title{
+  padding: 1rem;
+  font-size: 1.5rem;
+  color: white;
+  background-color: darkturquoise;
+}
+
+.App .message-container{
+  border: 2px solid red;
+  display: flex;
+  align-items: flex-start;
+}
+
+.App .messages{
+  margin: 0rem;
+  padding: 0rem;
+  list-style: none;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.App .message{
+  width: 25vw;
+  padding: 10px;
+  margin: 0.5rem;
+  word-wrap: break-word;
+  color: white;
+  background-color: seagreen;
+  border-radius: 0.3rem;
+}
+
+.App .message small{
+  font-size: 0.8rem;
+}
+
+.App .sender{
+  color: white;
+  background-color: darkturquoise;
+  align-self: flex-end;
+}
+
+.App .reciever{
+  color: white;
+  background-color: darkviolet;
+  align-self: flex-start;
+}
+
+.App .input-box{
+  display: grid;
+  column-gap: 0rem;
+  grid-template-columns: auto 2.25rem;
+  overflow: cover;
+}
+
+.App .input-box .msg{
+  display: inline-block;
+  font-size: 1rem;
+  outline: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.App .input-box button{
+  display: inline-block;
+  background-color: darkturquoise;
+  color: white;
+  width: 2.25rem;
+  height: 2.25rem;
+}
