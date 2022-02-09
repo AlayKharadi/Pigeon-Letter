@@ -13,12 +13,6 @@
   background-color: darkturquoise;
 }
 
-.App .message-container{
-  border: 2px solid red;
-  display: flex;
-  align-items: flex-start;
-}
-
 .App .messages{
   margin: 0rem;
   padding: 0rem;
@@ -28,28 +22,25 @@
   flex-direction: column;
 }
 
-.App .message{
+.App .messages .message{
   width: 25vw;
   padding: 10px;
   margin: 0.5rem;
   word-wrap: break-word;
   color: white;
-  background-color: seagreen;
   border-radius: 0.3rem;
 }
 
-.App .message small{
+.App .messages .message small{
   font-size: 0.8rem;
 }
 
-.App .sender{
-  color: white;
-  background-color: darkturquoise;
+.App .messages .sender{
+  background-color: seagreen;
   align-self: flex-end;
 }
 
-.App .reciever{
-  color: white;
+.App .messages .reciever{
   background-color: darkviolet;
   align-self: flex-start;
 }

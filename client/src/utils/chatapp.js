@@ -1,5 +1,7 @@
+const WebSocket = require('isomorphic-ws');
+
 //create a websocket to open communication between client and server
-const chatapp = new WebSocket(`ws://localhost:4000`);
+const chatapp = new WebSocket(`wss://${window.location.host}/`);
 
 chatapp.onopen = () => {
     console.log(`[open] Successfully connected to the chat server.`);

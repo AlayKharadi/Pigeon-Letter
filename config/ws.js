@@ -1,4 +1,4 @@
-const { WebSocketServer } = require('ws');
+const { WebSocketServer } = require("ws");
 
 let sockets = [];
 
@@ -7,7 +7,6 @@ module.exports = (app) => {
     const wss = new WebSocketServer({
         server: app,
         clientTracking: false,
-
     });
 
     //set up all the events for wss.
